@@ -112,11 +112,11 @@ nav li a {
     background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
 }
 
-.sign:hover{
+.sign:hover {
     cursor: pointer;
 }
 
-.rogue:hover{
+.rogue:hover {
     cursor: pointer;
 }
 
@@ -279,7 +279,7 @@ nav li a {
 }
 
 .cat-container:hover {
-    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%)); 
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -307,7 +307,7 @@ nav li a {
     color: #0B0223;
 }
 
-.cat-head:hover{
+.cat-head:hover {
     font-size: 1.25rem;
     font-weight: 600;
     color: #0B0223;
@@ -319,4 +319,75 @@ nav li a {
 .box-9 {
     margin-left: 335px;
     margin-top: 27px;
+}
+
+footer {
+    width: 1890px;
+    height: 636px;
+    flex-shrink: 0;
+    background: #0B0223;
+}
+
+.foot-title{
+    color: #FFF;
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+.foot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 120px;
+}
+
+.foot-story{
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    /* margin-top: 73px; */
+}
+
+.foot-name{
+    color: #FFF;
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 66px;
+}
+
+.foot-name:hover{
+    cursor: pointer;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.icons img:hover{
+    cursor: pointer;
+}
+
+.foot-terms{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 60px;
+}
+
+.foot-terms .terms:hover{
+    cursor: pointer;
+}
+
+.terms{
+    color: rgba(255, 255, 255, 0.60);
+    font-weight: 500;
+}
+
+.copyr8{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
 }
