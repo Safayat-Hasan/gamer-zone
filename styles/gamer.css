@@ -1,23 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&family=Work+Sans:wght@400;500;600;700;800&display=swap');
 
-*{
+* {
     font-family: 'Work Sans', sans-serif;
 }
 
-header{
+header {
     margin-top: 0;
 }
 
-.nav-title{
+.nav-title {
     font-size: 2.8rem;
     font-weight: 700;
 }
 
-.g{
+.g {
     color: #FF42A5;
 }
 
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -26,13 +26,13 @@ nav{
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 }
 
-.nav-right{
+.nav-right {
     margin-right: 280px;
     align-items: center;
     font-weight: 500;
 }
 
-.nav-left{
+.nav-left {
     display: flex;
     margin-left: 280px;
     /* margin-top: 45px;
@@ -40,47 +40,47 @@ nav{
     align-items: center;
 }
 
-.nav-img{
+.nav-img {
     width: 5.3rem;
     height: 2.5rem;
     flex-shrink: 0;
     margin-right: 1.25rem;
 }
 
-nav > ul{
-    display: flex;    
+nav>ul {
+    display: flex;
     color: #3C354F;
 }
 
-nav li{
+nav li {
     margin-right: 30px;
     list-style: none;
     font-weight: 500;
     font-size: 1rem;
 }
 
-nav li a{
+nav li a {
     text-decoration: none;
 }
 
-.follow{
+.follow {
     display: flex;
     border-radius: 8px;
     background: rgba(11, 2, 35, 0.10);
     padding: 20px;
 }
 
-.you{
+.you {
     /* margin-left: 24px; */
     margin-right: 16px;
 }
 
-.banner-head{
+.banner-head {
     font-size: 3rem;
     font-weight: 600;
 }
 
-.goat{
+.goat {
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
     -webkit-background-clip: text;
@@ -89,18 +89,18 @@ nav li a{
     font-size: 5.9rem;
 }
 
-.banner-p{
+.banner-p {
     color: #534C64;
     font-size: 1.25rem;
     font-weight: 500;
 }
 
-.banner-btn{
+.banner-btn {
     display: flex;
     gap: 24px;
 }
 
-.sign{
+.sign {
     color: #FFF;
     font-weight: 600;
     font-size: 1.25rem;
@@ -112,7 +112,7 @@ nav li a{
     background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
 }
 
-.rogue{
+.rogue {
     color: #FFF;
     font-weight: 600;
     font-size: 1.25rem;
@@ -124,7 +124,7 @@ nav li a{
     background: #4EC5F7;
 }
 
-.banner-left{
+.banner-left {
     width: 620px;
     height: 680px;
     flex-shrink: 0;
@@ -135,15 +135,66 @@ nav li a{
     background-image: url('../images/Group 14.png');
 }
 
-.banner{
+.banner {
     display: flex;
     justify-content: space-between;
 }
 
-.banner-right img{
+.banner-right img {
     width: 600px;
     height: 780px;
     margin-right: 280px;
     padding-top: 50px;
 }
 
+.online-head {
+    font-weight: 700;
+    font-size: 3rem;
+    color: #0B0223;
+    margin-top: 120px;
+    margin-bottom: 16px;
+}
+
+.online-p {
+    font-size: 1.1rem;
+    color: #534C64;
+    font-weight: 400;
+    margin-top: 16px;
+    margin-bottom: 48px;
+}
+
+.online {
+    text-align: center;
+}
+
+.online-card {
+    display: flex;
+    gap: 24px;
+    margin-left: 240px;
+    margin-right: 240px;
+}
+
+.online-card .card {
+    width: 342px;
+    height: 400px;
+    flex-shrink: 0;
+    margin-bottom: 120px;
+}
+
+.card-p {
+    color: #534C64;
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+
+.funny {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
