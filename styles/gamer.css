@@ -189,6 +189,43 @@ nav li a {
     margin-bottom: 120px;
 }
 
+.watch-container {
+    position: relative;
+}
+
+.watch-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+.watch:hover {
+    filter: brightness(30%);
+    cursor: pointer;
+}
+
+.watch-container:hover .watch-overlay {
+    opacity: 1;
+    position: absolute;
+    top: 150px;
+    left: 120px;
+    cursor: pointer;
+}
+
+.watch-container:hover .watch {
+    filter: brightness(30%);
+}
+
+.watch-t {
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+
 .card-p {
     color: #534C64;
     font-weight: 500;
@@ -427,7 +464,8 @@ footer {
         flex-direction: column-reverse;
     }
 
-    .instant-head, .instant-p{
+    .instant-head,
+    .instant-p {
         /* max-width: 425px; */
         /* align-items: center; */
         margin-left: 60px;
@@ -443,16 +481,16 @@ footer {
         max-width: 420px;
     }
 
-    .horse{
+    .horse {
         width: 420px;
     }
 
-    .angela{
+    .angela {
         height: 300px;
         width: 250px;
-    } 
+    }
 
-    .banner-img{
+    .banner-img {
         width: 420px;
     }
 
@@ -462,7 +500,7 @@ footer {
         margin-left: 20px;
     }
 
-    .instant-right{
+    .instant-right {
         width: 420px;
         /* height: 600px; */
     }
