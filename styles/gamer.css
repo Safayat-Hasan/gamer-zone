@@ -382,7 +382,6 @@ footer {
     display: flex;
     gap: 60px;
     justify-content: center;
-    /* margin-top: 73px; */
 }
 
 .foot-name {
@@ -457,7 +456,6 @@ footer {
 
     .banner-left {
         padding: 20px;
-        /* max-width: 100%; */
     }
 
     .banner {
@@ -466,8 +464,6 @@ footer {
 
     .instant-head,
     .instant-p {
-        /* max-width: 425px; */
-        /* align-items: center; */
         margin-left: 60px;
         height: 360px;
         text-align: center;
@@ -502,7 +498,6 @@ footer {
 
     .instant-right {
         width: 420px;
-        /* height: 600px; */
     }
 
     .cat-container {
@@ -554,53 +549,64 @@ footer {
 }
 
 
-@media screen and (min-width: 576px) and (max-width: 992px){
+@media screen and (min-width: 576px) and (max-width: 992px) {
     nav {
         flex-direction: column;
         box-shadow: none;
         max-width: 765px;
-    }   
+    }
+
     nav .nav-right {
         align-items: center;
         margin-left: 500px;
         gap: 50px;
     }
-    .banner, .instant{
+
+    .banner,
+    .instant {
         flex-direction: column;
     }
-    .online-card{
+
+    .online-card {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
-    .banner-right{
+
+    .banner-right {
         margin-left: 200px;
     }
+
     .instant-head,
     .instant-p {
-        /* max-width: 425px; */
-        /* align-items: center; */
         margin-left: 300px;
         height: 360px;
         text-align: center;
     }
-    .instant{
+
+    .instant {
         width: 100%;
     }
-    .online-head, .online-p{
+
+    .online-head,
+    .online-p {
         margin-left: 400px;
     }
+
     .foot-story {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 5px;
     }
+
     .category {
         width: 100%;
         grid-template-columns: repeat(3, 300px);
     }
+
     .cat-container {
         margin-left: 20px;
     }
+
     .box-6,
     .box-7,
     .box-8,
@@ -617,7 +623,9 @@ footer {
     .box-9 {
         margin-top: 10px;
     }
-    .category, footer{
+
+    .category,
+    footer {
         width: 1000px;
         height: 800px;
     }
