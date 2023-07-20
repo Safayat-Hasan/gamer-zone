@@ -27,14 +27,14 @@ nav {
 }
 
 .nav-right {
-    margin-right: 280px;
+    margin-right: 150px;
     align-items: center;
     font-weight: 500;
 }
 
 .nav-left {
     display: flex;
-    margin-left: 280px;
+    margin-left: 150px;
     /* margin-top: 45px;
     margin-bottom: 45px; */
     align-items: center;
@@ -134,13 +134,13 @@ nav li a {
 
 .banner-left {
     width: 620px;
-    height: 680px;
+    height: 700px;
     flex-shrink: 0;
     flex-shrink: 0;
-    padding-left: 280px;
-    padding-top: 148px;
+    padding-left: 150px;
+    padding-top: 50px;
     padding-right: 0;
-    background-image: url('../images/Group 14.png');
+    background-image: url('../images/Group 14 (5).png');
 }
 
 .banner {
@@ -150,8 +150,8 @@ nav li a {
 
 .banner-right img {
     width: 600px;
-    height: 780px;
-    margin-right: 280px;
+    height: 600px;
+    margin-right: 150px;
     padding-top: 50px;
 }
 
@@ -178,7 +178,7 @@ nav li a {
 .online-card {
     display: flex;
     gap: 24px;
-    margin-left: 240px;
+    margin-left: 35px;
     margin-right: 240px;
 }
 
@@ -257,7 +257,7 @@ nav li a {
     font-size: 3rem;
     font-weight: 700;
     text-align: right;
-    margin-left: 439px;
+    padding-left: 150px;
 }
 
 .play {
@@ -271,17 +271,19 @@ nav li a {
     font-size: 1.1rem;
     color: #534C64;
     font-weight: 400;
-    margin-left: 427px;
+    margin-left: 150px;
     text-align: right;
 }
 
 .instant-left {
     text-align: center;
-    margin-top: 150px;
+    /* margin-left: 150px; */
+    width: 1000px;
 }
 
 .instant-right {
-    margin-left: 200px;
+    margin-left: 300px;
+    margin-right: 150px;
 }
 
 .angela {
@@ -295,7 +297,7 @@ nav li a {
 }
 
 .category {
-    width: 1890px;
+    width: 1510px;
     height: 550px;
     flex-shrink: 0;
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
@@ -311,7 +313,7 @@ nav li a {
     padding: 10px;
     align-items: center;
     margin-top: 120px;
-    margin-left: 239px;
+    margin-left: 20px;
 
 }
 
@@ -344,22 +346,16 @@ nav li a {
     color: #0B0223;
 }
 
-.cat-head:hover {
-    font-size: 1.25rem;
-    font-weight: 600;
-    color: #0B0223;
-}
-
 .box-6,
 .box-7,
 .box-8,
 .box-9 {
-    margin-left: 335px;
+    margin-left: 200px;
     margin-top: 27px;
 }
 
 footer {
-    width: 1890px;
+    width: 1510px;
     height: 636px;
     flex-shrink: 0;
     background: #0B0223;
